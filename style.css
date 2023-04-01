@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+    background-color : #00324F;
+
+}
+
+/* --------------------HEADER ---------------------------- */
+
+/* Le Header contient La grenouille et le menu connexion */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+}
+
+#frog{
+    width : 150px;
+    margin-left : 5%;
+}
+
+#headNav{ /*Menu de connexion*/
+    
+    display: flex;    
+    align-items: center ;
+    margin-top: 1%;
+    margin-right : 5%;   
+  
+}
+
+/* li et a sont communs aux deux menus */
+
+li{    
+    list-style-type: none;  
+    margin-right : 10px;  
+}
+
+a{
+    color : white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* --------------------- MENU GENERAL ----------------- */
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-left : 20%;
+    margin-right: 20%;
+}
+
+
+
